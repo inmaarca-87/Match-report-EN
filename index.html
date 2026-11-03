@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#05080d">
+<title>FULL-TIME REPORT | 42112</title>
+<style>
+:root{--bg:#05080d;--panel:#0d1724;--panel2:#12263b;--blue:#42a5f5;--blue2:#1769aa;--muted:#9fb0c2;--white:#f4f8fc}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(circle at 50% -12%,#123b60 0,#080f19 38%,#05080d 72%);color:var(--white);font-family:Arial,Helvetica,sans-serif}
+.wrap{max-width:920px;margin:auto;padding:22px 16px 34px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:1px solid #ffffff20;padding-bottom:14px}
+.kicker{font-size:11px;letter-spacing:3px;color:var(--blue);font-weight:900}
+.edition{font-size:11px;color:var(--muted);text-align:right;line-height:1.5}
+.hero{margin-top:18px;padding:24px 18px;border:1px solid #58a9e633;border-radius:22px;background:linear-gradient(145deg,#102b45,#091522 78%);box-shadow:0 18px 45px #0007}
+.competition{text-align:center;color:#72bdff;font-size:12px;font-weight:900;letter-spacing:2px}
+.venue{text-align:center;color:var(--muted);font-size:12px;margin-top:7px}
+.match{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;margin:24px 0 16px}
+.team{text-align:center;min-width:0}
+.logo{width:88px;height:88px;object-fit:contain;display:block;margin:0 auto 10px;filter:drop-shadow(0 5px 9px #0008)}
+.teamname{font-weight:900;font-size:clamp(14px,3vw,19px);line-height:1.2}
+.vs{font-size:12px;color:var(--muted);font-weight:900;letter-spacing:2px}
+.scoreline{display:flex;align-items:center;justify-content:center;gap:15px;margin:10px 0}
+.score{font-size:clamp(46px,11vw,70px);font-weight:1000;letter-spacing:2px;line-height:1}
+.dash{font-size:30px;color:var(--blue);font-weight:900}
+.status{display:table;margin:0 auto;background:var(--blue);color:#04111d;padding:8px 19px;border-radius:99px;font-size:12px;font-weight:1000;letter-spacing:2px}
+.section{margin-top:20px;padding:20px;border:1px solid #ffffff17;border-radius:18px;background:linear-gradient(145deg,#0d1b2b,#0a121d)}
+.section h2{font-size:14px;color:#72bdff;letter-spacing:2px;margin:0 0 14px}
+.story{font-size:15px;line-height:1.75;color:#e3edf7;white-space:pre-line}
+.match-photo{margin:0 0 17px;border-radius:14px;overflow:hidden;background:#07111c;border:1px solid #ffffff20}
+.match-photo img{display:block;width:100%;max-height:390px;object-fit:cover}
+.match-photo figcaption{padding:9px 12px;color:#a9c9e5;font-size:11px;line-height:1.5;background:#0b1c2d}
+.event-photo{margin:0 0 10px;border-radius:10px;overflow:hidden;background:#07111c;border:1px solid #ffffff20}
+.event-photo img{display:block;width:100%;max-height:300px;object-fit:cover}
+.event-photo figcaption{padding:7px 10px;color:#a9c9e5;font-size:11px;background:#0b1c2d}
+.events{display:grid;gap:10px}
+.event{display:grid;grid-template-columns:58px 1fr;gap:12px;padding:13px;border-radius:12px;background:#112941;border-left:3px solid var(--blue)}
+.minute{color:#80c5ff;font-weight:900}
+.event p{margin:0;font-size:14px;line-height:1.55}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.stat{background:#112941;border-radius:12px;padding:14px}
+.stat label{display:block;color:var(--muted);font-size:11px;letter-spacing:1px;margin-bottom:7px}
+.stat strong{font-size:19px}
+.footer{text-align:center;padding:25px 10px 5px}
+.media-logo{width:76px;height:76px;object-fit:contain;display:block;margin:0 auto 9px}
+.media-name{font-weight:900;letter-spacing:3px;font-size:18px}
+.signature{color:#72bdff;font-style:italic;font-size:12px;letter-spacing:1.5px;margin-top:5px}
+.credit{font-size:10px;color:#8297aa;margin-top:13px}
+@media(max-width:520px){.wrap{padding:14px 11px}.hero{padding:19px 12px}.logo{width:68px;height:68px}.section{padding:16px}.teamname{font-size:13px}.story{font-size:14px}.stats{gap:8px}.stat{padding:11px}}
+@media print{body{background:#fff;color:#111}.hero,.section{break-inside:avoid;background:#fff;color:#111;border:1px solid #bbb;box-shadow:none}.story,.venue,.edition,.event p,.stat strong{color:#111}.event,.stat{background:#eee}.top{border-color:#aaa}.section h2,.competition,.minute,.signature{color:#145a91}.footer{color:#111}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="kicker">MATCHDAY • 42112</div>
+  <div class="edition">FOOTBALL MATCH REPORT<br>FULL-TIME EDITION</div>
+</header>
+<main>
+<section class="hero">
+  <div class="competition">PREMIER LEAGUE • MATCHWEEK 9 • 2026/27</div>
+  <div class="venue">ST JAMES' PARK, NEWCASTLE • 2 NOVEMBER 2026</div>
+  <div class="match">
+    <div class="team">
+      <img class="logo" src="newcastle.png" alt="Logo Newcastle United" onerror="this.style.opacity='.15'">
+      <div class="teamname">NEWCASTLE UNITED</div>
+    </div>
+    <div class="vs">VS</div>
+    <div class="team">
+      <img class="logo" src="everton.png" alt="Logo Everton" onerror="this.style.opacity='.15'">
+      <div class="teamname">EVERTON</div>
+    </div>
+  </div>
+  <div class="scoreline"><div class="score">0</div><div class="dash">:</div><div class="score">1</div></div>
+  <div class="status">FULL TIME</div>
+</section>
+
+<section class="section">
+  <h2>RINGKASAN PERTANDINGAN</h2>
+<figure class="match-photo"><img src="summary.jpg" alt="Foto pertandingan Everton melawan Newcastle" onerror="this.parentElement.style.display='none'"><figcaption>Suasana pertandingan di St James’ Park.</figcaption></figure>
+  <div class="story">Peluit panjang berbunyi di St James' Park! Everton sukses menaklukkan Newcastle United dengan skor tipis 1-0. The Magpies harus mengakhiri laga dengan 10 pemain setelah Jacob Ramsey menerima kartu merah pada masa tambahan waktu babak kedua.
+
+Everton membuka keunggulan pada menit ke-49. Berawal dari situasi tendangan bebas cepat, Tyrique George mendapat ruang untuk melepaskan tembakan. Lukas Horníček gagal mengantisipasi bola dengan sempurna sehingga Thierno Barry dengan mudah menyambar bola muntah ke gawang yang sudah kosong.
+
+Horníček kemudian berusaha menebus kesalahannya. Ia lebih dulu menepis tembakan jarak jauh Kiernan Dewsbury-Hall, sebelum kembali menggagalkan sundulan Jake O'Brien yang mengarah ke gawang. Everton terus menekan, tetapi keunggulan mereka tetap hanya satu gol.
+
+Newcastle nyaris menyamakan kedudukan melalui Anthony Elanga. Sentuhannya di tiang jauh membuat bola membentur Jordan Pickford, lalu tiang gawang, sebelum bergulir di dekat garis gawang dan berhasil diamankan. Jacob Ramsey yang masuk sebagai pemain pengganti juga sempat mengancam lewat tembakan dari luar kotak penalti, tetapi bola melenceng tipis di sisi kiri gawang.
+
+Pada menit ke-90, Newcastle memperoleh peluang terakhir melalui Yoane Wissa. Namun, Pickford tampil gemilang dengan menggunakan kaki kanannya untuk menggagalkan tembakan jarak dekat tersebut. Malam buruk tuan rumah ditutup oleh kartu merah Ramsey pada menit 90+8 setelah menerima dua kartu kuning dalam waktu berdekatan.
+
+Newcastle mencatat 17 tembakan dengan dua tepat sasaran dan xG 1,47. Everton melepaskan 16 tembakan, lima di antaranya tepat sasaran, dengan xG 2,15. Everton pun membawa pulang tiga poin dari St James' Park, sementara para pemain Newcastle meninggalkan lapangan diiringi kekecewaan pendukung mereka.</div>
+</section>
+
+<section class="section">
+  <h2>MOMEN PENTING</h2>
+  <div class="events">
+    <div class="event"><div class="minute">49'</div><p><b>GOAL! NEWCASTLE 0-1 EVERTON.</b> Tembakan Tyrique George gagal diamankan dengan sempurna oleh Horníček. Thierno Barry sigap menyambar bola muntah dan membawa Everton unggul.</p></div>
+    <div class="event"><div class="minute">55'</div><div><figure class="event-photo"><img src="highlight.jpg" alt="Momen peluang Branthwaite" onerror="this.parentElement.style.display='none'"><figcaption>Branthwaite menyundul bola, tetapi Hornicek masih mampu menepisnya.</figcaption></figure><p><b>PELUANG! EVERTON HAMPIR MENGGANDAKAN KEUNGGULAN!</b> George mendapat ruang di sisi kanan sebelum mengirim umpan silang ke tiang jauh. Branthwaite berhasil memenangi duel udara atas Hall, tetapi sundulan langsungnya masih mampu ditepis Horníček!</p></div></div>
+    <div class="event"><div class="minute">90'</div><div>
+      <figure class="event-photo"><img src="pickford.jpg" alt="Jordan Pickford melakukan penyelamatan" onerror="this.parentElement.style.display='none'">
+      <figcaption>Jordan Pickford menjaga keunggulan Everton dengan penyelamatan penting.</figcaption></figure>
+      <p><b>PICKFORD MENYELAMATKAN EVERTON!</b> Wissa mendapat peluang dari jarak dekat, tetapi Pickford bereaksi cepat dan menggagalkan tembakannya dengan kaki kanan.</p>
+    </div></div>
+
+    <div class="event"><div class="minute">90+8'</div><div>
+      <figure class="event-photo"><img src="ramsey.jpg" alt="Jacob Ramsey saat pertandingan" onerror="this.parentElement.style.display='none'">
+      <figcaption>Jacob Ramsey di laga kontra Everton.</figcaption></figure>
+      <p><b>KARTU MERAH! NEWCASTLE KEHILANGAN RAMSEY.</b> Jacob Ramsey menerima kartu kuning kedua pada masa tambahan waktu. Newcastle harus menuntaskan pertandingan dengan 10 pemain.</p>
+    </div></div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>STATISTIK AKHIR</h2>
+  <div class="stats">
+    <div class="stat"><label>TOTAL TEMBAKAN</label><strong>17 — 16</strong></div>
+    <div class="stat"><label>TEPAT SASARAN</label><strong>2 — 5</strong></div>
+    <div class="stat"><label>EXPECTED GOALS (xG)</label><strong>1,47 — 2,15</strong></div>
+    <div class="stat"><label>SKOR AKHIR</label><strong>0 — 1</strong></div>
+  </div>
+  <p style="font-size:11px;color:#9fb0c2;margin:12px 2px 0">Urutan statistik: Newcastle United — Everton.</p>
+</section>
+</main>
+<footer class="footer">
+  <img class="media-logo" src="media.png" alt="Logo media 42112" onerror="this.style.opacity='.15'">
+  <div class="media-name">42112</div>
+  <div class="signature">Signature by a Love</div>
+  <div class="credit">INDEPENDENT FOOTBALL COVERAGE • BANDUNG, INDONESIA</div>
+</footer>
+</div>
+</body>
+</html>
